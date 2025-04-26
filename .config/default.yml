@@ -1,0 +1,13 @@
+url: 'https://https://yameru-shoujoryo.onrender.com' # 这里换成你的真实Render域名
+port: 3000
+
+db:
+  host: 'dpg-d06g01ali9vc73ebbihg-a'
+  port: 5432
+  database: 'misskey'
+  user: 'abmin'
+  pass: 'hpDSUghV9Nr74RD9dz0JqBWh7rejfzqD'
+
+redis:
+  host: 'localhost'
+  port: 6379
