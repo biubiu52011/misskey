@@ -1,8 +1,8 @@
-url: 'https://https://yameru-shoujoryo.onrender.com' # 例子：https://yameru-shoujoryo.onrender.com
+url: 'https://yameru-shoujoryo.onrender.com'
 port: 3000
 
 db:
-  host: 'dpg-d06g01ali9vc73ebbihg-adpg-d06g01ali9vc73ebbihg-a'
+  host: 'dpg-d06g01ali9vc73ebbihg-a'
   port: 5432
   database: 'abmin'
   user: 'abmin'
