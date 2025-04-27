@@ -1,4 +1,4 @@
-url: 'https://yameru-shoujoryo.onrender.com'
+url: 'postgresql://abmin:hpDSUghV9Nr74RD9dz0JqBWh7rejfzqD@dpg-d06g01ali9vc73ebbihg-a.oregon-postgres.render.com/abmin'
 port: 3000
 
 db:
