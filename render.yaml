@@ -9,18 +9,6 @@ services:
       - key: NODE_ENV
         value: production
       - key: DATABASE_URL
-        fromService:
-            type: pserv
-            name: misskey-db
-            property: connectionString
+        sync: false
       - key: REDIS_URL
-        fromService:
-            type: pserv
-            name: misskey-redis
-            property: connectionString
-databases:
-  - name: misskey-db
-    databaseName: misskey
-    user: misskey
-  - name: misskey-redis
-    ipAllowList: []
+        sync: false
