@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: yameru-shoujoryo
+    env: node
+    plan: free
+    buildCommand: yarn install
+    startCommand: NODE_ENV=production CONFIG_PATH=.config/default.yml yarn start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false
+      - key: REDIS_URL
+        sync: false
