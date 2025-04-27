@@ -1,13 +1,12 @@
-url: 'postgresql://abmin:hpDSUghV9Nr74RD9dz0JqBWh7rejfzqD@dpg-d06g01ali9vc73ebbihg-a.oregon-postgres.render.com/abmin'
+url: postgresql://abmin:hpDSUghV9Nr74RD9dz0JqBWh7rejfzqD@dpg-d06g01ali9vc73ebbihg-a/abmin
 port: 3000
-
 db:
-  host: 'localhost'
+  host: localhost
   port: 5432
-  database: 'misskey'
-  user: 'misskey'
-  pass: 'misskey-password'
-
-redis:
-  host: 'localhost'
-  port: 6379
+  db: misskey
+  user: misskey
+  pass: misskey-password
+signToActivityPubGet: true
+proxyProtocol: false
+isCluster: false
+clusterLimit: 10
