@@ -1,12 +1,10 @@
-url: postgresql://abmin:hpDSUghV9Nr74RD9dz0JqBWh7rejfzqD@dpg-d06g01ali9vc73ebbihg-a/abmin
-port: 3000
+url: https://yameru-shoujoryo.onrender.com
 db:
-  host: localhost
+  host: 'postgresql://abmin:hpDSUghV9Nr74RD9dz0JqBWh7rejfzqD@dpg-d06g01ali9vc73ebbihg-a/abmin'
   port: 5432
-  db: misskey
-  user: misskey
-  pass: misskey-password
-signToActivityPubGet: true
-proxyProtocol: false
-isCluster: false
-clusterLimit: 10
+  user: 'abmin'
+  pass: 'hpDSUghV9Nr74RD9dz0JqBWh7rejfzqD'
+  db: 'abmin'
+redis:
+  host: 'dpg-d06g01ali9vc73ebbihg-a'
+  port: 6379
